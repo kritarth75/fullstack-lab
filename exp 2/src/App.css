@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;      /*gaps bet cards*/
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);     /*shadow*/
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;   /*dist. bet. label and inputs bx 1*/
+}
+
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;      /*platform and txt area */
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+
+.button-row {
+  display: flex;
+  gap: 10px;      /*dist bet save drft and publish `*/
+}
+
+button {
+  background-color: #4a63e7;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #3a4fc9;
+}
+
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+
+.success-text {
+  color: green;
+  font-weight: bold;
+}
+
+
+.error-text {
+  color: red;
+  font-weight: bold;
+}
+
+
+.draft-item {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+
+ul {
+  padding-left: 20px;
+  font-size: 14px;       /*activity log*/
+}
