@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #f5f6f8;
+  color: #1f2430;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.analytics {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.stat {
+  flex: 1;
+  background: white;
+  border: 1px solid #e2e5eb;
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4f46e5;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.form-section, .list-section {
+  background: white;
+  border: 1px solid #e2e5eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.form-section h2, .list-section h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+}
+
+.form-row select {
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  background: #4f46e5;
+  color: white;
+  font-size: 0.9rem;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post-card {
+  border: 1px solid #e2e5eb;
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: #fafbfc;
+}
+
+.post-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.platform-tag {
+  font-size: 0.7rem;
+  background: #eef0ff;
+  color: #4f46e5;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.icon-btn {
+  background: transparent;
+  color: #9ca3af;
+  padding: 2px 6px;
+  font-size: 0.9rem;
+}
+
+.icon-btn:hover {
+  background: transparent;
+  color: #ef4444;
+}
+
+.post-card h3 {
+  margin: 8px 0 4px;
+  font-size: 1rem;
+}
+
+.post-card p {
+  margin: 0 0 4px;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.char-count {
+  font-size: 0.7rem;
+  color: #9ca3af;
+}
+
+.link-btn {
+  background: transparent;
+  color: #4f46e5;
+  padding: 4px 0;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.link-btn:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.row-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.error {
+  color: #ef4444;
+}

@@ -1,14 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postReducer, { selectAllPosts } from "./postSlice";
+import postsReducer from "./postsSlice";
 
 export const store = configureStore({
   reducer: {
-    posts: postReducer,
+    posts: postsReducer,
   },
-});
-
-
-store.subscribe(() => {
-  const posts = selectAllPosts(store.getState());
-  localStorage.setItem("drafts", JSON.stringify(posts));
 });
