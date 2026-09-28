@@ -51,7 +51,6 @@ export default function App() {
     <div className="app">
       <header>
         <h1>Social Post Dashboard</h1>
-        <p className="subtitle">Redux Toolkit · Normalized State · Memoized Selectors</p>
       </header>
 
       <section className="analytics">
